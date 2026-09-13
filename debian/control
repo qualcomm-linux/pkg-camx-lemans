@@ -1,0 +1,48 @@
+Source: camx-lemans
+Section: non-free/libs
+Priority: optional
+Maintainer: Qualcomm Camera Team <camx.deb.maintainers@qti.qualcomm.com>
+Uploaders:
+ Loïc Minier <loic.minier@oss.qualcomm.com>,
+ Agathe Porte <agathe.porte@oss.qualcomm.com>,
+Build-Depends:
+ debhelper-compat (= 13),
+Build-Depends-Arch:
+ libfastrpc1,
+ libglib2.0-0,
+ libxml2-16,
+ protobuf-compiler,
+Standards-Version: 4.6.2
+Homepage: http://support.cdmatech.com
+Vcs-Browser: https://github.com/qualcomm-linux/pkg-camx-lemans
+Vcs-Git: https://github.com/qualcomm-linux/pkg-camx-lemans.git
+
+Package: camx-lemans
+Architecture: arm64
+Provides: camx-monaco (= ${binary:Version})
+Depends:
+ libfastcvopt1,
+ ${misc:Depends},
+ ${shlibs:Depends},
+Description: Qualcomm CamX usermode libraries for Lemans platform
+ Core camera driver components for Lemans platform.
+
+Package: libcamx-lemans1
+Architecture: arm64
+Depends:
+ camx-lemans (= ${binary:Version}),
+ ${misc:Depends},
+ ${shlibs:Depends},
+Description: Qualcomm CamX libraries for camera service
+ Set of libraries used by camera service (QMMF) for Lemans platform
+
+Package: libcamx-lemans-dev
+Section: non-free/libdevel
+Architecture: arm64
+Depends:
+ camx-lemans (= ${binary:Version}),
+ ${misc:Depends},
+Description: Dev package for CamX libraries for camera service
+ Contains unversioned so files used by camera service (QMMF)
+ for Lemans platform
+

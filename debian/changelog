@@ -1,0 +1,5 @@
+camx-lemans (1.0.46-1) UNRELEASED; urgency=medium
+
+  * UMD base enablement for Lemans/Monaco
+
+ -- Qualcomm Camera Team <camx.deb.maintainers@qti.qualcomm.com>  Fri, 11 Sep 2026 14:07:18 +0000

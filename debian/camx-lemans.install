@@ -1,0 +1,4 @@
+camx-lemans/arm64/usr/libexec/camx-lemans/ usr/libexec/
+camx-lemans/arm64/usr/share/hexagon-dsp/sa8775p/Qualcomm/SA8775P-RIDE/dsp/cdsp/*.so /usr/share/hexagon-dsp/sa8775p/Qualcomm/SA8775P-RIDE/dsp/cdsp
+camx-lemans/arm64/usr/lib/aarch64-linux-gnu/camx usr/lib/aarch64-linux-gnu
+camx-lemans/arm64/usr/share/camx/networks/lemans/* /usr/share/camx/networks/lemans/
