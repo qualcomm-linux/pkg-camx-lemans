@@ -1,8 +1,9 @@
-camx-lemans (1.0.51-1) UNRELEASED; urgency=medium
+camx-lemans (1.0.51-1) resolute; urgency=medium
 
+  [ Qualcomm Camera Team ]
   * New upstream release (261009)
 
- -- Qualcomm Camera Team <camx.deb.maintainers@qti.qualcomm.com>  Sun, 11 Oct 2026 13:47:57 +0530
+ -- GitHub Service Bot <githubservice@qti.qualcomm.com>  Tue, 13 Oct 2026 02:46:28 +0000
 
 camx-lemans (1.0.46-1) resolute; urgency=medium
 
